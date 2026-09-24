@@ -23,7 +23,7 @@ fitStage();
 const translations = {
   zh: {
     locale: 'zh-CN', dir: 'ltr',
-    title: 'Han Wu — 个人作品集',
+    title: 'Han Wu — 吴含',
     description: 'Han Wu — 个人主页与 AI 作品集',
     language: '语言',
     intro: { tagline: '以人为本，<br>向善而行。', portfolio: 'AI作品集' },
@@ -46,7 +46,7 @@ const translations = {
   },
   de: {
     locale: 'de-DE', dir: 'ltr',
-    title: 'Han Wu — Portfolio',
+    title: 'Han Wu — 吴含',
     description: 'Han Wu — persönliche Website und KI-Portfolio',
     language: 'Sprache',
     intro: { tagline: 'Menschen im Mittelpunkt,<br>Gutes im Sinn.', portfolio: 'KI-Portfolio' },
@@ -69,7 +69,7 @@ const translations = {
   },
   en: {
     locale: 'en', dir: 'ltr',
-    title: 'Han Wu — Portfolio',
+    title: 'Han Wu — 吴含',
     description: 'Han Wu — personal site and AI portfolio',
     language: 'Language',
     intro: { tagline: 'People first,<br>good in mind.', portfolio: 'AI Portfolio' },
@@ -92,7 +92,7 @@ const translations = {
   },
   es: {
     locale: 'es', dir: 'ltr',
-    title: 'Han Wu — Portafolio',
+    title: 'Han Wu — 吴含',
     description: 'Han Wu — sitio personal y portafolio de IA',
     language: 'Idioma',
     intro: { tagline: 'Las personas primero,<br>actuar para el bien.', portfolio: 'Portafolio de IA' },
@@ -115,7 +115,7 @@ const translations = {
   },
   fr: {
     locale: 'fr', dir: 'ltr',
-    title: 'Han Wu — Portfolio',
+    title: 'Han Wu — 吴含',
     description: 'Han Wu — site personnel et portfolio IA',
     language: 'Langue',
     intro: { tagline: 'L’humain d’abord,<br>agir pour le bien.', portfolio: 'Portfolio IA' },
@@ -138,7 +138,7 @@ const translations = {
   },
   it: {
     locale: 'it', dir: 'ltr',
-    title: 'Han Wu — Portfolio',
+    title: 'Han Wu — 吴含',
     description: 'Han Wu — sito personale e portfolio IA',
     language: 'Lingua',
     intro: { tagline: 'Le persone al centro,<br>agire per il bene.', portfolio: 'Portfolio IA' },
@@ -161,7 +161,7 @@ const translations = {
   },
   pt: {
     locale: 'pt', dir: 'ltr',
-    title: 'Han Wu — Portfólio',
+    title: 'Han Wu — 吴含',
     description: 'Han Wu — site pessoal e portfólio de IA',
     language: 'Idioma',
     intro: { tagline: 'Pessoas em primeiro lugar,<br>agir para o bem.', portfolio: 'Portfólio de IA' },
@@ -184,7 +184,7 @@ const translations = {
   },
   ar: {
     locale: 'ar', dir: 'rtl',
-    title: 'Han Wu — معرض الأعمال',
+    title: 'Han Wu — 吴含',
     description: 'Han Wu — موقع شخصي ومعرض أعمال للذكاء الاصطناعي',
     language: 'اللغة',
     intro: { tagline: 'الإنسان أولاً،<br>والعمل لما هو أفضل.', portfolio: 'معرض أعمال الذكاء الاصطناعي' },
@@ -207,7 +207,7 @@ const translations = {
   },
   ja: {
     locale: 'ja', dir: 'ltr',
-    title: 'Han Wu — ポートフォリオ',
+    title: 'Han Wu — 吴含',
     description: 'Han Wu — 個人サイトとAIポートフォリオ',
     language: '言語',
     intro: { tagline: '人を中心に、<br>善い方向へ。', portfolio: 'AIポートフォリオ' },
@@ -230,7 +230,7 @@ const translations = {
   },
   ko: {
     locale: 'ko', dir: 'ltr',
-    title: 'Han Wu — 포트폴리오',
+    title: 'Han Wu — 吴含',
     description: 'Han Wu — 개인 사이트와 AI 포트폴리오',
     language: '언어',
     intro: { tagline: '사람을 중심에,<br>더 나은 방향으로.', portfolio: 'AI 포트폴리오' },
