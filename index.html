@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Han Wu — designer/developer portfolio landing page" />
+  <title>Han Wu — 个人作品集</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="viewport" id="viewport">
+    <main class="stage" id="stage">
+      <div class="paper-noise" aria-hidden="true"></div>
+
+      <!-- Top-left monogram -->
+      <div class="monogram" aria-hidden="true">
+        <b>H</b><b>W</b><span></span>
+      </div>
+
+      <!-- Left introduction -->
+      <section class="intro">
+        <h1 contenteditable="true" spellcheck="false">Han Wu</h1>
+        <h2 contenteditable="true" spellcheck="false">吴含</h2>
+        <p class="intro-copy" contenteditable="true" spellcheck="false">以人为本，<br>向善而行。</p>
+        <a class="intro-cta" href="#projects" contenteditable="true" spellcheck="false">AI作品集 <span>→</span></a>
+        <div class="skills" aria-label="技能">
+          <div class="skill"><span contenteditable="true">空白</span><i></i><b class="dot solid"></b></div>
+          <div class="skill"><span contenteditable="true">空白</span><i></i><b class="dot"></b></div>
+          <div class="skill"><span contenteditable="true">空白</span><i></i><b class="dot"></b></div>
+          <div class="skill"><span contenteditable="true">空白</span><i></i><b class="dot"></b></div>
+        </div>
+      </section>
+
+      <!-- Social links -->
+      <nav class="social" aria-label="社交链接">
+        <a href="#" contenteditable="true"><span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2.2a10 10 0 0 0-3.16 19.49c.5.09.68-.21.68-.48v-1.87c-2.78.6-3.37-1.18-3.37-1.18-.45-1.15-1.11-1.46-1.11-1.46-.91-.62.07-.61.07-.61 1 .08 1.53 1.03 1.53 1.03.9 1.53 2.35 1.09 2.92.83.09-.65.35-1.09.64-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.5 9.5 0 0 1 12 6.74c.85 0 1.71.11 2.51.34 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.86v3.03c0 .27.18.58.69.48A10 10 0 0 0 12 2.2Z"/></svg></span>GitHub</a>
+        <a href="#" contenteditable="true"><span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5.3 3.5A2.3 2.3 0 1 1 .7 3.5a2.3 2.3 0 0 1 4.6 0ZM1.1 8h4.3v13.8H1.1V8Zm6.9 0h4.1v1.9h.1c.6-1.1 2-2.3 4.1-2.3 4.4 0 5.2 2.9 5.2 6.6v7.6h-4.3V15c0-1.6 0-3.8-2.3-3.8s-2.7 1.8-2.7 3.7v6.9H8V8Z"/></svg></span>LinkedIn</a>
+        <a href="mailto:hello@example.com" contenteditable="true"><span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M2 5h20v14H2V5Zm2 2v.4l8 5.4 8-5.4V7H4Zm16 10V9.8l-8 5.4-8-5.4V17h16Z"/></svg></span>邮箱</a>
+        <a href="#" contenteditable="true"><span class="social-icon xicon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M18.8 2H22l-7 8 8.2 12h-6.4l-5-6.6L6 22H2.8l7.5-8.6L2.4 2h6.6l4.5 5.9L18.8 2Zm-1.1 17.9h1.8L8.1 4H6.2l11.5 15.9Z"/></svg></span>X / Twitter</a>
+      </nav>
+      <div class="copyright" contenteditable="true">© 2024 Han Wu</div>
+
+      <!-- Decorative radial guide lines -->
+      <div class="guide guide-top"><i></i></div>
+      <div class="guide guide-rt"><i></i></div>
+      <div class="guide guide-left"><i></i></div>
+      <div class="guide guide-bottom"><i></i></div>
+      <div class="guide guide-quote"><i></i></div>
+
+      <!-- Circular navigation wheel -->
+      <section class="wheel" aria-label="作品集导航">
+        <svg class="ring" id="ring" viewBox="0 0 900 900" aria-hidden="true">
+          <g id="segments"></g>
+        </svg>
+
+        <div class="target" aria-hidden="true"><span></span></div>
+
+        <div class="center-disc">
+          <div class="orbit orbit-1"></div>
+          <div class="orbit orbit-2"></div>
+          <div class="orbit orbit-3"></div>
+          <div class="coord coord-top"><b></b><span contenteditable="true">12.345° N</span><b></b></div>
+          <div class="portrait-wrap"><img src="assets/avatar.jpg" alt="Han Wu portrait" /></div>
+          <div class="coord coord-bottom"><b></b><span contenteditable="true">67.890° W</span><b></b></div>
+        </div>
+
+        <article class="nav-card card-01" data-module="01" data-accent="#dbd1c6" tabindex="0" role="button" aria-haspopup="dialog" aria-controls="detail-overlay">
+          <div class="icon-bubble"><svg viewBox="0 0 32 32"><circle cx="16" cy="11" r="5"/><path d="M6.5 27c.6-5.1 4.2-8 9.5-8s8.9 2.9 9.5 8"/></svg></div>
+          <div class="num" contenteditable="true">01</div>
+          <h3 contenteditable="true">我是谁</h3>
+          <p contenteditable="true">让我想想</p>
+          <button class="module-trigger" type="button" aria-label="打开：我是谁"></button>
+
+        </article>
+
+        <article class="nav-card card-02" id="projects" data-module="02" data-accent="#8ca4bf" tabindex="0" role="button" aria-haspopup="dialog" aria-controls="detail-overlay">
+          <div class="icon-bubble"><svg viewBox="0 0 32 32"><rect x="6" y="6" width="8" height="8" rx="1"/><rect x="18" y="6" width="8" height="8" rx="1"/><rect x="6" y="18" width="8" height="8" rx="1"/><rect x="18" y="18" width="8" height="8" rx="1"/></svg></div>
+          <div class="num" contenteditable="true">02</div>
+          <h3 contenteditable="true">我从哪里来</h3>
+          <p contenteditable="true">是个好问题</p>
+          <button class="module-trigger" type="button" aria-label="打开：我从哪里来"></button>
+
+        </article>
+
+        <article class="nav-card card-03" data-module="03" data-accent="#23272c" tabindex="0" role="button" aria-haspopup="dialog" aria-controls="detail-overlay">
+          <div class="icon-bubble"><svg viewBox="0 0 32 32"><path d="M9 5h11l4 4v18H9z"/><path d="M20 5v5h5M13 15h7M13 19h7"/></svg></div>
+          <div class="num" contenteditable="true">03</div>
+          <h3 contenteditable="true">我的经历</h3>
+          <p contenteditable="true">还是得想想</p>
+          <a href="#" contenteditable="true"><span></span></a>
+          <button class="module-trigger" type="button" aria-label="打开：我的经历"></button>
+        </article>
+
+        <article class="nav-card card-04" data-module="04" data-accent="#8ca4bf" tabindex="0" role="button" aria-haspopup="dialog" aria-controls="detail-overlay">
+          <div class="icon-bubble"><svg viewBox="0 0 32 32"><path d="M12 5h8M14 5v8l-6 11c-.8 1.5.3 3 2 3h12c1.7 0 2.8-1.5 2-3l-6-11V5"/><path d="M11 21h10"/></svg></div>
+          <div class="num" contenteditable="true">04</div>
+          <h3 contenteditable="true">我在干什么</h3>
+          <p contenteditable="true">啊，难到我了</p>
+          <button class="module-trigger" type="button" aria-label="打开：我在干什么"></button>
+
+        </article>
+
+        <article class="nav-card card-05" data-module="05" data-accent="#dbd1c6" tabindex="0" role="button" aria-haspopup="dialog" aria-controls="detail-overlay">
+          <div class="icon-bubble"><svg viewBox="0 0 32 32"><path d="M11 11a7 7 0 0 0 0 10M7 7a13 13 0 0 0 0 18M21 11a7 7 0 0 1 0 10M25 7a13 13 0 0 1 0 18"/><circle cx="16" cy="16" r="2"/></svg></div>
+          <div class="num" contenteditable="true">05</div>
+          <h3 contenteditable="true">我要去哪</h3>
+          <p contenteditable="true">值得深思</p>
+          <button class="module-trigger" type="button" aria-label="打开：我要去哪"></button>
+
+        </article>
+
+        <article class="nav-card card-06" data-module="06" data-accent="#23272c" tabindex="0" role="button" aria-haspopup="dialog" aria-controls="detail-overlay">
+          <div class="icon-bubble"><svg viewBox="0 0 32 32"><rect x="5" y="9" width="22" height="15" rx="1"/><path d="m6 10 10 8 10-8"/></svg></div>
+          <div class="num" contenteditable="true">06</div>
+          <h3 contenteditable="true">想找我</h3>
+          <p contenteditable="true">来者不拒</p>
+          <button class="module-trigger" type="button" aria-label="打开：想找我"></button>
+
+        </article>
+      </section>
+
+      <!-- Upper-right metadata -->
+      <aside class="meta">
+        <p contenteditable="true">AI梦想家 <br>常驻云端<br>上午 10:15 / 2025 年 3 月 5 日</p>
+        <span class="meta-dot" aria-hidden="true"></span>
+      </aside>
+
+      <!-- Quote -->
+      <blockquote class="quote">
+        <div class="quote-mark">“</div>
+        <p contenteditable="true">自信心<br>想象力<br>学习能力</p>
+        <footer contenteditable="true"></footer>
+      </blockquote>
+
+      <!-- Module detail layer: each card opens this panel. Add future rich content inside the matching template. -->
+      <div class="detail-overlay" id="detail-overlay" aria-hidden="true">
+        <button class="detail-backdrop" type="button" aria-label="关闭内容面板"></button>
+        <section class="detail-panel" role="dialog" aria-modal="true" aria-labelledby="detail-title">
+          <div class="detail-accent" aria-hidden="true"></div>
+          <div class="detail-head">
+            <div class="detail-index"><span id="detail-number">01</span><i></i></div>
+            <button class="detail-close" type="button" aria-label="关闭">×</button>
+          </div>
+          <h2 id="detail-title"></h2>
+          <p class="detail-summary" id="detail-summary"></p>
+          <div class="detail-content" id="detail-content"></div>
+        </section>
+      </div>
+
+      <template id="module-01-content"><!-- “我是谁”的详细内容以后写在这里。支持任意 HTML。 --></template>
+      <template id="module-02-content"><!-- “我从哪里来”的详细内容以后写在这里。支持任意 HTML。 --></template>
+      <template id="module-03-content"><!-- “我的经历”的详细内容以后写在这里。支持任意 HTML。 --></template>
+      <template id="module-04-content"><!-- “我在干什么”的详细内容以后写在这里。支持任意 HTML。 --></template>
+      <template id="module-05-content"><!-- “我要去哪”的详细内容以后写在这里。支持任意 HTML。 --></template>
+      <template id="module-06-content"><!-- “想找我”的详细内容以后写在这里。支持任意 HTML。 --></template>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
